@@ -1,0 +1,25 @@
+/*THIS IS JUST A PLACEHOLDER*/
+/*for project 5 use box-sizing: border-box;*/
+body {
+    font-family: 'Playfair Display SC', serif;
+    /*insert font from GOOGLE HERE*/
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*input, textarea {
+    width: 30rem;
+    height: 3rem;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}*/
+
+legend{
+    font-size: 1.5rem;
+}
