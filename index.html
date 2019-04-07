@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -48,7 +49,6 @@
                 <source media="(min-width: 960px)" srcset="images/Butterscotch/butterscotch-med.jpg">
                 <source media="(min-width: 640px)" srcset="images/Butterscotch/butterscotch-small.jpg">
                 <img src="images/Butterscotch/butterscotch-xsmall.jpg" alt="This is Butterscotch!">
-                <p>This is my cat Butterscotch!</p>
             </picture>
             <hr>
             <picture>
@@ -56,7 +56,6 @@
                 <source media="(min-width: 960px)" srcset="images/Tea/teasunset-med.jpg">
                 <source media="(min-width: 640px)" srcset="images/Tea/teasunset-small.jpg">
                 <img src="images/Tea/teasunset-xsmall.jpg" alt="Cup of tea in the sunset">
-                <p>A lovely cup of tea in the sunset.</p>
             </picture>
             <hr>
             <picture>
@@ -64,7 +63,6 @@
                 <source media="(min-width: 960px)" srcset="images/Debbie/debbie-med.jpg">
                 <source media="(min-width: 640px)" srcset="images/Debbie/debbie-small.jpg">
                 <img src="images/Debbie/debbie-xsmall.jpg" alt="This is Debbie!">
-                <p>This is my cat Debbie!</p>
             </picture>
         </section>
         <article class="story">
@@ -89,11 +87,6 @@
 
             <p>26 July.--I am anxious, and it soothes me to express myself here; it is like whispering to one's self and listening at the same time. And there is also something about the shorthand symbols that makes it different from writing. I am unhappy about Lucy and about Jonathan. I had not heard from Jonathan for some time, and was very concerned; but yesterday dear Mr. Hawkins, who is always so kind, sent me a letter from him. I had written asking him if he had heard, and he said the enclosed had just been received. It is only a line dated from Castle Dracula, and says that he is just starting for home. That is not like Jonathan; I do not understand it, and it makes me uneasy. Then, too, Lucy, although she is so well, has lately taken to her old habit of walking in her sleep. Her mother has spoken to me about it, and we have decided that I am to lock the door of our room every night. Mrs. Westenra has got an idea that sleep-walkers always go out on roofs of houses and along the edges of cliffs and then get suddenly wakened and fall over with a despairing cry that echoes all over the place. Poor dear, she is naturally anxious about Lucy, and she tells me that her husband, Lucy's father, had the same habit; that he would get up in the night and dress himself and go out, if he were not stopped. Lucy is to be married in the autumn, and she is already planning out her dresses and how her house is to be arranged. I sympathise with her, for I do the same, only Jonathan and I will start in life in a very simple way, and shall have to try to make both ends meet. Mr. Holmwood--he is the Hon. Arthur Holmwood, only son of Lord Godalming--is coming up here very shortly--as soon as he can leave town, for his father is not very well, and I think dear Lucy is counting the moments till he comes. She wants to take him up to the seat on the churchyard cliff and show him the beauty of Whitby. I daresay it is the waiting which disturbs her; she will be all right when he arrives.</p>
         </article>
-        <div>
-            <footer class="copyright">
-                <small><i>Copyright &copy; 2019 Beverly Garcia-Godoy</i></small>
-            </footer>
-        </div>
     </main>
     <hr>
     <section class="form-container">
@@ -109,10 +102,10 @@
                 <fieldset>
                     <legend>Allow a Reply?</legend>
                     <p>
-                        Yes: <input type="radio" name="action" />
+                        <input type="radio" name="action" /> <label for="yes">Yes!</label>
                         <br>
                         <br>
-                        No: <input type="radio" name="action" id="track" value="track" />
+                        <input type="radio" name="action" /> <label for="no">No!</label>
                         <br>
                     </p>
                 </fieldset>
@@ -120,11 +113,16 @@
                 <textarea name="message"></textarea>
                 <br>
                 <br>
-                <button type="submit">Send Away!</button>
+                <button type="submit">Send</button>
             </fieldset>
         </form>
     </section>
     <hr>
+    <div>
+        <footer class="copyright">
+            <small><i>Copyright &copy; 2019 Beverly Garcia-Godoy</i></small>
+        </footer>
+    </div>
 </body>
 
 </html>
