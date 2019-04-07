@@ -1,7 +1,5 @@
-/*THIS IS JUST A PLACEHOLDER*/
-/*for project 5 use box-sizing: border-box;*/
 body {
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'EB Garamond', serif;
     /*insert font from GOOGLE HERE*/
 }
 
@@ -11,15 +9,43 @@ img {
     max-width: 100%;
 }
 
-/*input, textarea {
-    width: 30rem;
-    height: 3rem;
-    margin: auto;
-    box-sizing: border-box;
-    border: 1px solid #000000;
-    border-radius: 5px;
-}*/
+footer {
+    text-align: center;
+}
 
-legend{
-    font-size: 1.5rem;
+legend {
+    font-size: 1.3rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+textarea {
+    border: 1.2px solid;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    background-color: #EAEAEA;
+}
+
+input {
+    border: 1.2px solid;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: #EAEAEA;
+}
+
+button {
+    background-color: #8FB390;
+    color: #FFFFFF;
+    border: 1.2px solid black;
+    box-shadow: 0 1px 0 #EAEAEA;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+button:focus {
+    background-color: #EAEAEA;
+    color: #5A7F64;
 }
